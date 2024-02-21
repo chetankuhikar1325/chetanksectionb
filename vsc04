@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <fieldset>
+            <legend>Registraction Form</legend>
+            <label>First name:</label>
+            <input type="text"maxlength="10" name="fname"
+            placeholder="Enter first name">
+            <br>
+            <br>
+            <label>Middle name :</label>
+            <input type="text"maxlength="10" name="mname"
+            placeholder=" Enter Middle  name">
+            <br>
+            <br>
+            <label>Last name :</label>
+            <input type="text"maxlength="10" name="lname"
+            placeholder="Enter Last name">
+            <br>
+            <br>
+            <label>Gender :</label>
+            <input type="radio"name="gender">Male
+            <input type="radio"name="gender">Female
+            <input type="radio"name="gender">Transgender
+            <br>
+            <br>
+            <label>Address :</label>
+            <textarea>
+
+            </textarea>
+            <br>
+            <br>
+            <label>Email ID :</label>
+            <input type="text"maxlength="10" name="mname"
+            placeholder=" Gmail address">
+            <br>
+            <br>
+            <label>Date of Birth :</label>
+            <input type="simple text"> 
+            <br>
+            <br>
+            <label>Skills:</label>
+            <input type="checkbox"name="Skill1">programming language <br>
+            <input type="checkbox"name="Skill1">java<br>
+            <input type="checkbox"name="Skill1">c programing <br>
+            <input type="checkbox"name="Skill1">softskill <br>
+            <br>
+            <br>
+            <Label> State</Label>
+            <select name="state">
+            <option value="0" selected disabled>---</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Chhattisgarh">Chhatisgarh</option>
+            <option value="Telangana">Telangana</option>
+            </select>
+            <br>
+            <br>
+            <Label> Uplode file</Label>
+            <input type="file">
+            <br>
+            <br>
+            <input type="button" value="submit">
+            <input type="reset" value="clear all">
+        
+        </fieldset>
+    </form>
+</body>
+</html>
